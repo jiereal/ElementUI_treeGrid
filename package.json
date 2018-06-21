@@ -5,5 +5,15 @@
     "element-ui": "2.4.1",
     "vue": "2.5.16"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiereal/ElementUI_treeGrid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jiereal/ElementUI_treeGrid/issues"
+  },
+  "author": "jiereal@gmail.com",
+  "homepage": "https://github.com/jiereal/ElementUI_treeGrid#readme",
+  "license": "MIT",
   "main": "src/treeGrid.vue"
 }

@@ -106,7 +106,7 @@
         }
     </script>
 ```
-![Alt text](example/screenshot.png?raw=true "Title")
+![截图](https://raw.githubusercontent.com/jiereal/ElementUI_treeGrid/master/example/screenshot.png)
 
 # Contribution
 If you find a bug or want to contribute to the code or documentation, you can help by submitting an [issue](https://github.com/jiereal/ElementUI_treeGrid/issues) or a [https://github.com/jiereal/ElementUI_treeGrid/pulls) .
