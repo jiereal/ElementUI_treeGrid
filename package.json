@@ -1,6 +1,6 @@
 {
   "name": "elementui_treegrid",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "dependencies": {
     "element-ui": "2.4.1",
     "vue": "2.5.16"
