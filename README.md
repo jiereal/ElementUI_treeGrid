@@ -50,7 +50,45 @@
                         code: '1',
                         name: 'name1',
                         type: 'type1',
-                        description: 'description'
+                        description: 'description',
+                        id: 1,
+                        children: [{
+                            code: '1',
+                            name: 'name1',
+                            type: 'type1',
+                            description: 'description',
+                            id: 11,
+                        }, {
+                            code: '1',
+                            name: 'name1',
+                            type: 'type1',
+                            description: 'description',
+                            id: 12
+                        }, {
+                            code: '1',
+                            name: 'name1',
+                            type: 'type1',
+                            description: 'description',
+                            id: 13
+                        }]
+                    }, {
+                        code: '1',
+                        name: 'name1',
+                        type: 'type1',
+                        description: 'description',
+                        id: 2
+                    }, {
+                        code: '1',
+                        name: 'name1',
+                        type: 'type1',
+                        description: 'description',
+                        id: 3
+                    }, {
+                        code: '1',
+                        name: 'name1',
+                        type: 'type1',
+                        description: 'description',
+                        id: 4
                     }]
                 }
             },
@@ -68,9 +106,10 @@
         }
     </script>
 ```
+![Alt text](example/screenshot.png?raw=true "Title")
 
 # Contribution
-If you find a bug or want to contribute to the code or documentation, you can help by submitting an [issue](https://github.com/jiereal/vuex_helper/issues) or a [pull request](https://github.com/jiereal/vuex_helper/pulls) .
+If you find a bug or want to contribute to the code or documentation, you can help by submitting an [issue](https://github.com/jiereal/ElementUI_treeGrid/issues) or a [https://github.com/jiereal/ElementUI_treeGrid/pulls) .
 
 # License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details

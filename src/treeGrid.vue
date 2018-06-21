@@ -3,8 +3,8 @@
         <table class="table table-bordered el-table" id='hl-tree-table'>
             <thead>
             <tr>
-                <th v-for="(column,index) in cloneColumns">
-                    <label v-if="column.type === 'selection'">
+                <th v-for="(column,index) in cloneColumns" :style=tdStyle(column)>
+                <label v-if="column.type === 'selection'">
                         <el-checkbox :indeterminate="isIndeterminateAll" :value="isCheckedAll"
                                      @input="handleCheckAll"/>
                     </label>
@@ -202,7 +202,7 @@
                     }
                     this.modelItems.push(data);
 
-                    if (data.children.length) {
+                    if (data.children && data.children.length) {
                         let checkedAll = true;
                         let hasChecked = false;
                         data.children.forEach((item) => {
